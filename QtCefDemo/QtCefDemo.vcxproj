@@ -122,7 +122,11 @@
     <QtMoc Include="qtcefwindow.h" />
     <ClCompile Include="qtcefwindow.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClInclude Include="simple_app.h" />
+    <ClInclude Include="simple_handler.h" />
     <ClInclude Include="stdafx.h" />
+    <ClCompile Include="simple_app.cpp" />
+    <ClCompile Include="simple_handler.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">Create</PrecompiledHeader>
